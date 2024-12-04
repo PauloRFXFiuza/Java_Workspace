@@ -27,5 +27,17 @@ public class lacosDeRepeticao {
                 System.out.println("ERRADO!!! TENTE NOVAMENTE!!!");
             }
         }
+
+        int cont = 0;
+
+        do { 
+            System.out.println("O contador nesta iteracao tem o valor de: "+cont);
+            cont++;
+        } while (cont<1000);
+
+
+
+
+
     }
 }
